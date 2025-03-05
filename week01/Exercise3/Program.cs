@@ -40,7 +40,7 @@ class Program
             else
             {
             Console.WriteLine("Lower");
-            }
+            } 
         }
     }
 }
