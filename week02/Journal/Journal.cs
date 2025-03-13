@@ -62,7 +62,7 @@ public class Journal
             foreach (string line in lines)
             {
                 string[] parts = line.Split('|');
-                if (parts.Length == 3)
+                if (parts.Length >= 3)
                 {
                     entries.Add(new Entry(parts[1].Trim(), parts[2].Trim()) { Date = parts[0].Trim() });
                 }

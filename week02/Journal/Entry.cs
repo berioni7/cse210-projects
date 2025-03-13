@@ -1,5 +1,3 @@
-using System;
-
 public class Entry
 {
     public string Date { get; set; }
@@ -8,7 +6,7 @@ public class Entry
 
     public Entry(string prompt, string response)
     {
-        Date = DateTime.Now.ToString("yyyy-MM-dd"); 
+        Date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         Prompt = prompt;
         Response = response;
     }
